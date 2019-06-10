@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--字体大小-->
+    <dimen name="layout_50dp">50dp</dimen>
+    <dimen name="text_FontSize_15dp">15dp</dimen>
+    <dimen name="text_FontSize_14dp">14dp</dimen>
+
+
+
+
+</resources>

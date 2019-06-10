@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">玛迪卡云</string>
+
+    <!--ActionBar Title-->
+    <string name="actionbar_string">玛迪卡彩色证件管理云平台 V5.0</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="tv_btn_xg">修改</string>
+    <string name="tv_btn_tj">提\t\t\t\t\t交</string>
+
+
+    <string name="infoTextTitle">名片识别 OCR</string>
+    <string name="infoTextTitleEnglish">Business card OCR</string>
+    <string name="infoTextName">姓名(Name)</string>
+    <string name="infoTextJob">职位(Job)</string>
+    <string name="infoTextTel">电话(Tel)</string>
+    <string name="infoTextCompany">公司(Company)</string>
+    <string name="infoTextSite">地址(Site)</string>
+
+    <string name="listItem1">名片识别</string>
+    <string name="listItem2">证件识别</string>
+    <string name="listItem3">人脸识别</string>
+    <string name="listItem4">人证合一</string>
+    <string name="listItem5">车牌识别</string>
+    <string name="listItem6">执照识别</string>
+    <string name="listItem7">证件打印</string>
+
+    <string name="list_setup">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

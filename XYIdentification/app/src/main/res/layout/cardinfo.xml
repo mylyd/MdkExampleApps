@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infoTextTitle"
+        android:textColor="@color/tvTitle_color"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/TextTitleSize_25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infoTextTitleEnglish"
+        android:textColor="@color/tvTitle_color"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/TextTitleSizeEnglish_20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infoTextName"
+                android:textColor="@color/tv_color"
+                android:textSize="@dimen/TextSize_16dp" />
+
+            <TextView
+                android:id="@+id/btnTv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_btn_xg"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/tv_color"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tv_color"
+            android:maxLines="1"
+            android:maxLength="8"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infoTextJob"
+                android:textColor="@color/tv_color"
+                android:textSize="@dimen/TextSize_16dp" />
+
+            <TextView
+                android:id="@+id/btnTv_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_btn_xg"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/tv_color"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tv_color"
+            android:maxLines="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infoTextTel"
+                android:textColor="@color/tv_color"
+                android:textSize="@dimen/TextSize_16dp" />
+
+            <TextView
+                android:id="@+id/btnTv_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_btn_xg"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/tv_color"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tv_color"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:inputType="number"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infoTextCompany"
+                android:textColor="@color/tv_color"
+                android:textSize="@dimen/TextSize_16dp" />
+
+            <TextView
+                android:id="@+id/btnTv_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_btn_xg"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/tv_color"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tv_color"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infoTextSite"
+                android:textColor="@color/tv_color"
+                android:textSize="@dimen/TextSize_16dp" />
+
+            <TextView
+                android:id="@+id/btnTv_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_btn_xg"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/tv_color"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tv_color" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:text="@string/tv_btn_tj"
+        android:textSize="@dimen/btnSubmitSize_22dp"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:layout_marginLeft="@dimen/margin_40dp"
+        android:layout_marginRight="@dimen/margin_40dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:background="@drawable/btn_radius"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+   <!-- <color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#F87B37</color>
+
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+    <color name="btn_pressedColor">#FFFFFF</color>
+
+
+    <!--transparent-->
+    <color name="list_item_transparent">#00000000</color>
+    <color name="list_item_pressed">#54FFFFFF</color>
+
+    <!--ActionBar-->
+    <color name="actionbarColor">#F87B37</color>
+    <!--ActionBar Text Color-->
+    <color name="actionbarTextColor">#FFFFFF</color>
+
+    <color name="list_text_background">#83FFFFFF</color>
+    <color name="item_bg">#E0E0E0</color>
+    <color name="tvTitle_color">#242424</color>
+    <color name="tv_color">#383838</color>
+</resources>
