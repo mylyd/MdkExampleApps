@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282f37"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请   填   入   激   活   码"
+        android:textColor="#ffffff"
+        android:textSize="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"/>
+
+
+    <EditText
+        android:id="@+id/ed_text"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/border_mg"
+        android:gravity="center_vertical"
+        android:hint="请输入激活码"
+        android:inputType="text"
+        android:maxLength="16"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textColorHint="#979797"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/ed_text"
+        android:layout_alignRight="@id/ed_text"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/icon_in" />
+
+    <ImageView
+        android:id="@+id/btn_xx"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@mipmap/icon_xx"
+        android:layout_alignTop="@id/ed_text"
+        android:layout_alignRight="@id/ed_text"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="75dp"/>
+
+
+    <Button
+        android:id="@+id/btn_Activate"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/border_btn"
+        android:text="激          活"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/tv_infortv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="没有激活码？"
+        android:background="#0000"
+        android:textColor="#BDBDBD"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Copyright © 2018 - 2020 玛迪卡云 版权所有 TEL: 159-2702-6140"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+</RelativeLayout>

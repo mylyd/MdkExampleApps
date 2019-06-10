@@ -1,0 +1,116 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_RelativeLayout"
+    android:layout_width="@dimen/ID_width"
+    android:layout_height="@dimen/ID_height"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_ViewSize_title_height"
+        android:layout_centerHorizontal="true"
+        android:textColor="#669610"
+        android:textSize="@dimen/text_FontSize_32dp"
+        android:paddingLeft="60dp"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/img_Photo"
+        android:layout_width="@dimen/view_ViewSize_photo_width"
+        android:layout_height="@dimen/view_ViewSize_photo_height"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="@dimen/view_ViewSize_info_width"
+        android:layout_height="@dimen/view_ViewSize_height"
+        android:layout_marginTop="55dp"
+        android:gravity="center|left"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000"
+        android:textSize="@dimen/text_FontSize_15dp"/>
+
+    <TextView
+        android:id="@+id/tv_Age"
+        android:layout_width="@dimen/view_ViewSize_info_width"
+        android:layout_height="@dimen/view_ViewSize_height"
+        android:gravity="center|left"
+        android:layout_marginLeft="24dp"
+        android:layout_alignTop="@id/tv_Name"
+        android:layout_toRightOf="@id/tv_Name"
+        android:textColor="#000"
+        android:textSize="@dimen/text_FontSize_15dp" />
+    <TextView
+        android:id="@+id/tv_Sex"
+        android:layout_width="@dimen/view_ViewSize_info_width"
+        android:layout_height="@dimen/view_ViewSize_height"
+        android:gravity="center|left"
+        android:layout_alignLeft="@id/tv_Name"
+        android:layout_marginTop="@dimen/view_margin_5dp"
+        android:layout_below="@id/tv_Name"
+        android:textColor="#000"
+        android:textSize="@dimen/text_FontSize_15dp" />
+    <TextView
+        android:id="@+id/tv_Examination"
+        android:layout_width="@dimen/view_ViewSize_info_width"
+        android:layout_height="@dimen/view_ViewSize_height"
+        android:layout_below="@id/tv_Age"
+        android:layout_alignLeft="@id/tv_Age"
+        android:textColor="#000"
+        android:textSize="@dimen/text_FontSize_15dp"
+        android:layout_marginTop="@dimen/view_margin_5dp"
+        android:gravity="center|left"/>
+
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="@dimen/view_ViewSize_time_width"
+        android:layout_height="@dimen/view_ViewSize_height"
+        android:layout_below="@id/tv_Sex"
+        android:layout_alignLeft="@id/tv_Sex"
+        android:textColor="#000"
+        android:textSize="@dimen/text_FontSize_15dp"
+        android:layout_marginTop="@dimen/view_margin_5dp"
+        android:gravity="center|left"/>
+
+    <ImageView
+        android:id="@+id/img_Yard"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="290dp"/>
+
+    <TextView
+        android:id="@+id/tv_NumberID"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:text=""
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="145dp"
+        android:gravity="center|left"/>
+
+    <TextView
+        android:id="@+id/tv_Site"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_ViewSize_height"
+        android:textColor="#669610"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/text_FontSize_15dp"
+        android:layout_marginBottom="@dimen/view_margin_5dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/img_Chapter"
+        android:layout_width="@dimen/view_ViewSize_chapter_width"
+        android:layout_height="@dimen/view_ViewSize_chapter_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="90dp"/>
+
+</RelativeLayout>

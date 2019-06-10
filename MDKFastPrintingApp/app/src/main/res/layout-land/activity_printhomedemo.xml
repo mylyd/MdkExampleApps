@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/btn_backHome"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="@dimen/view_margin_25dp"
+               android:src="@mipmap/back_index"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="60dp"
+                android:layout_below="@id/btn_backHome">
+
+                <include layout="@layout/activity_default_template" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_print"
+                android:layout_width="180dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="60dp"
+                android:layout_height="60dp"
+                android:text="打印"
+                android:textSize="24dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <ImageView
+            android:id="@+id/img_code_Z"
+            android:layout_width="260dp"
+            android:layout_height="162.5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"/>
+
+        <ImageView
+            android:id="@+id/img_code_F"
+            android:layout_width="260dp"
+            android:layout_height="162.5dp"
+            android:layout_alignLeft="@id/img_code_Z"
+            android:layout_below="@id/img_code_Z"
+            android:layout_marginTop="50dp" />
+
+
+    </RelativeLayout>
+    
+
+</LinearLayout>
